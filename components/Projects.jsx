@@ -9,40 +9,34 @@ import { cn } from "@/utils/cn";
 const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "A full-stack e-commerce solution with advanced filtering, real-time inventory tracking, and seamless Stripe integration.",
-    tech: ["Next.js", "Tailwind CSS", "MongoDB", "Stripe"],
-    gradient: "from-blue-500 to-cyan-400",
-    github: "#",
-    live: "#",
+    title: "Tiles E-Commerce Website",
+    description: "Developed a responsive tiles e-commerce website with modern UI, authentication, and dynamic product features.",
+    tech: ["Next.js", "Tailwind CSS","hero-ui","duisy-ui", "Better Auth", "Json-server","vercel","Animate-css","react-toastify"],
+   
+    github: "https://github.com/Sagor8187/My-Tiles-Gallary.git",
+    live: "https://my-tiles-gallary.vercel.app/",
+    image:"https://i.ibb.co/3mtskRpd/Screenshot-2026-05-19-144045.png"
   },
   {
     id: 2,
-    title: "SaaS Dashboard",
-    description: "An analytics dashboard for SaaS businesses, featuring interactive charts, data visualization, and user management.",
-    tech: ["React", "Framer Motion", "Express.js", "PostgreSQL"],
-    gradient: "from-purple-500 to-pink-500",
-    github: "#",
-    live: "#",
+    title: "Contact Management & Tracking website",
+    description:"Created a responsive contact management and tracking application with modern UI, contact organization, and seamless user experience.",
+    tech: ["React", "tailwind-css","hero-ui","vercel", "duisy-ui", "react-icons","react-toastify"],
+
+    github: "https://github.com/Sagor8187/Keen-keeper-dashboard-app.git",
+    live: "https://keen-keeper-henna-tau.vercel.app/",
+    image:"https://i.ibb.co/Y4KfF49c/Screenshot-2026-05-19-144956.png"
   },
   {
     id: 3,
-    title: "AI Content Generator",
-    description: "A modern application leveraging OpenAI's API to generate marketing copy, blog posts, and social media content.",
-    tech: ["Next.js", "OpenAI API", "Tailwind CSS", "Prisma"],
-    gradient: "from-emerald-500 to-teal-400",
-    github: "#",
-    live: "#",
+    title: "NEST E-Commarce",
+    description: "Built a responsive Nest e-commerce app using React and Tailwind. Users can browse products, add to cart, and remove items easily. Focused on clean UI, smooth interactions, and seamless shopping experience. Key Features: Product listing, add to cart, remove from cart, responsive design, interactive UI.",
+    tech: ["React", "Tailwind CSS", "context-api","tailwind-css","react-router-dom","duisy-ui"],
+   image:"https://i.ibb.co/gLbz4qtc/post.png",
+    github: "https://github.com/Sagor8187/NEST-E-commerce.git",
+    live: "https://marvelous-belekoy-79b799.netlify.app/",
   },
-  {
-    id: 4,
-    title: "Web3 NFT Marketplace",
-    description: "A decentralized marketplace for minting, buying, and selling NFTs with smart contract integration.",
-    tech: ["React", "Solidity", "Ethers.js", "Tailwind CSS"],
-    gradient: "from-orange-500 to-yellow-500",
-    github: "#",
-    live: "#",
-  },
+  
 ];
 
 export default function Projects() {
@@ -101,6 +95,7 @@ export default function Projects() {
                 {/* Project Image Placeholder / Abstract Graphic */}
                 <div className="w-full h-64 overflow-hidden relative">
                   <div className={`absolute inset-0 bg-gradient-to-br ${project.gradient} opacity-80 group-hover:scale-110 transition-transform duration-700 ease-out`} />
+                  <img src={project.image} alt="" />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500" />
                   
                   {/* Decorative Elements inside the image area */}
