@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+Create a futuristic high-end developer portfolio website background animation with a cinematic motion design style.
+The design should use a dark futuristic theme with smooth neon glow gradients (blue, purple, cyan) softly blending in the background.
+
+Add glassmorphism UI layers with blurred translucent panels floating above the background.
+
+Include smooth slow particles gently moving in different directions, creating depth and atmosphere without distracting from content.
+
+Implement a parallax scroll background effect, where multiple layers move at different speeds as the user scrolls down the page, creating strong depth perception.
+
+The animation should feel cinematic, premium, and extremely smooth with soft easing transitions.
+
+Add subtle light streaks and glowing orbs that react slightly to scroll movement.
+
+The overall feel should be like a futuristic developer portfolio, minimal yet highly interactive, with soft motion, elegant transitions, and modern UI aesthetics.
+
+Ensure performance is optimized for web and animations are not too fast or distracting.
+
+eta ke 5 ta step e deo kono kicu chnage korba nh 
