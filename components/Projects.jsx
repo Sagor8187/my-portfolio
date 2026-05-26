@@ -8,7 +8,37 @@ import { cn } from "@/utils/cn";
 
 const projectsData = [
   {
-    id: 1,
+     id: 1,
+    title: "NextIdea– Startup Idea Sharing Platform ",
+    description: "A web-based platform where users can share startup ideas, explore community ideas, and interact through comments and feedback for collaboration and validation. ",
+    tech: ["Next.js", "Tailwind CSS","Node js","Express js","Mongo DB","JWT Authentication", "Better Auth","vercel"],
+   
+    github: "https://github.com/Sagor8187/My-Idea-share-platform.git",
+    live: "https://my-idea-share-platform.vercel.app",
+    image:"https://i.ibb.co/Tn7q84M/Screenshot-2026-05-26-110434.png"
+  },
+  {
+     id: 2,
+    title: "World Tour– Travel booking management System",
+    description: "   A full-stack web application for creating, managing, booking, updating, and deleting tour packages with complete CRUD functionality and smooth user experience.",
+    tech: ["Next.js", "Tailwind CSS","Node js","Express js","Mongo DB","JWT Authentication", "Better Auth","vercel"],
+   
+    github: "hhttps://github.com/Sagor8187/World-tour-full-stack-app.git",
+    live: "https://world-tour-full-stack-app.vercel.app",
+    image:"https://i.ibb.co/Q7mmyFxG/Screenshot-2026-05-26-110633.png"
+  },
+  {
+     id: 3,
+    title: "Global Times News Blogs Website",
+    description: "A global news blogging platform where users can read category-wise news with Google & GitHub authentication and a modern responsive interface.",
+    tech: ["Next.js", "Tailwind CSS","Rest API", "Better Auth","vercel"],
+   
+    github: "https://github.com/Sagor8187/Global-Times-news-web-use-next.git",
+    live: "https://global-times-news-web-use-next.vercel.app/mynews/01",
+    image:"https://i.ibb.co/wFfjsGS3/Screenshot-2026-05-26-110545.png"
+  },
+  {
+    id: 4,
     title: "Tiles E-Commerce Website",
     description: "Developed a responsive tiles e-commerce website with modern UI, authentication, and dynamic product features.",
     tech: ["Next.js", "Tailwind CSS","hero-ui","duisy-ui", "Better Auth", "Json-server","vercel","Animate-css","react-toastify"],
@@ -18,7 +48,7 @@ const projectsData = [
     image:"https://i.ibb.co/3mtskRpd/Screenshot-2026-05-19-144045.png"
   },
   {
-    id: 2,
+    id: 5,
     title: "Contact Management & Tracking website",
     description:"Created a responsive contact management and tracking application with modern UI, contact organization, and seamless user experience.",
     tech: ["React", "tailwind-css","hero-ui","vercel", "duisy-ui", "react-icons","react-toastify"],
@@ -28,7 +58,7 @@ const projectsData = [
     image:"https://i.ibb.co/Y4KfF49c/Screenshot-2026-05-19-144956.png"
   },
   {
-    id: 3,
+    id: 6,
     title: "NEST E-Commarce",
     description: "Built a responsive Nest e-commerce app using React and Tailwind. Users can browse products, add to cart, and remove items easily. Focused on clean UI, smooth interactions, and seamless shopping experience. Key Features: Product listing, add to cart, remove from cart, responsive design, interactive UI.",
     tech: ["React", "Tailwind CSS", "context-api","tailwind-css","react-router-dom","duisy-ui"],

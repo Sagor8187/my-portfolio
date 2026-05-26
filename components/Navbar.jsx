@@ -120,8 +120,8 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             {/* Download CV Button (Desktop) */}
             <a
-              href="/cv.pdf"
-              download="Sagor_Sutradhar_CV.pdf"
+              href="/Sagor_Resume.pdf"
+              download="Sagor_Sutradhar_Resume.pdf"
               className="hidden md:flex items-center justify-center px-5 py-2 text-sm font-bold text-background bg-primary rounded-full hover:scale-105 hover:bg-primary/90 transition-all shadow-[0_0_15px_rgba(56,189,248,0.4)]"
             >
               Resume
