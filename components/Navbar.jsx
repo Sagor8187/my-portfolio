@@ -203,8 +203,8 @@ export default function Navbar() {
               ))}
               
               <motion.a
-                href="/cv.pdf"
-                download="Sagor_Sutradhar_CV.pdf"
+                href="/Sagor_Resume.pdf"
+                download="Sagor_Sutradhar_Resume.pdf"
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: navLinks.length * 0.1 }}
