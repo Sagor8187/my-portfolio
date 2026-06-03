@@ -210,7 +210,7 @@ export default function Navbar() {
                 transition={{ delay: navLinks.length * 0.1 }}
                 className="px-4 py-3 mt-2 rounded-xl text-base font-bold text-background bg-primary hover:bg-primary/90 transition-all text-center shadow-[0_0_15px_rgba(56,189,248,0.3)]"
               >
-                Download CV
+                Resume
               </motion.a>
             </div>
           </motion.div>
