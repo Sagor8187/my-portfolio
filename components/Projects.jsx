@@ -29,7 +29,7 @@ const projectsData = [
   },
   {
      id: 3,
-    title: "Global Times News Blogs Website",
+    title: "Global News Times News Portal Website",
     description: "A global news blogging platform where users can read category-wise news with Google & GitHub authentication and a modern responsive interface.",
     tech: ["Next.js", "Tailwind CSS","Rest API", "Better Auth","vercel"],
    
