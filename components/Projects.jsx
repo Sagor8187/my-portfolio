@@ -35,7 +35,7 @@ const projectsData = [
    
     github: "https://github.com/Sagor8187/Global-Times-news-web-use-next.git",
     live: "https://global-times-news-web-use-next.vercel.app/mynews/01",
-    image:"https://i.ibb.co/wFfjsGS3/Screenshot-2026-05-26-110545.png"
+    image:"https://i.ibb.co.com/d40KtLNJ/Screenshot-2026-07-07-185011.png"
   },
   {
     id: 4,
